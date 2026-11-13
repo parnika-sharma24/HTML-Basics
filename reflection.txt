@@ -1,0 +1,16 @@
+Reflection - Week 1 Day 1: HTML Basics
+
+1. What steps did you follow to create your webpage?
+First, I created a folder named HTML-Basics with index.html and reflection.txt. Then I wrote the basic HTML structure and added the heading, paragraph, hobbies list, link and image. After that I added the bonus items and tested the page in my browser.
+
+2. Which HTML tags did you learn today?
+I learned <html>, <head>, <title>, <body>, <h1>, <h2>, <p>, <ul>, <li>, <a>, <img>, <strong>, <em>, <br>, <hr> and comments (<!-- -->).
+
+3. What difficulties did you face while completing the task?
+I typed <u1> instead of <ul>, so my list showed without bullets. I also forgot a closing quote in the link, and I faced a little bit diificulty in getting an image URL.
+
+4. How did you solve those difficulties?
+I noticed the colours in my editor looked wrong, which helped me find the missing quote. I fixed the <ul> typo after checking the page in the browser. I searched about how to get theimage url and then copied an image address from the internet using "Copy image address". As well as i faced a little difficulty in saving the file but later did that easily.
+
+5. What new things did you learn from this assignment?
+I learned how HTML tags open and close, that comments do not show on the page, and that the alt text describes an image. I also learned how to upload a project to GitHub.
