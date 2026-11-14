@@ -1,0 +1,26 @@
+Reflection - Student Registration Page
+
+1. What is the difference between radio buttons and checkboxes?
+Radio buttons let the user pick only ONE option from a group (they share the
+same "name" attribute, e.g. Gender). Checkboxes let the user pick zero, one
+or many options independently (e.g. Hobbies).
+
+2. What is the purpose of the <label> tag?
+The <label> tag describes what an input field is for. It is linked to an input
+using the "for" attribute matching the input's "id". Clicking the label focuses
+or selects the input, and it helps screen readers, so it improves usability
+and accessibility.
+
+3. What is the difference between <th> and <td>?
+<th> is a table header cell. It is bold and centered by default and tells the
+browser and screen readers that the cell is a heading. <td> is a normal table
+data cell that holds the actual content.
+
+4. Why do we use semantic HTML elements?
+Semantic elements like <header>, <nav>, <main>, <section> and <footer> describe
+the meaning of the content, not just how it looks. They make code easier to
+read and maintain, help screen readers navigate, and help search engines
+understand the page structure.
+
+5. Which part of today's task was most challenging?
+The lengthy coding part but it was easy and doable once I undrstood the codes and concept.
