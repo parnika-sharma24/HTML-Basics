@@ -1,0 +1,18 @@
+Day 3 Reflection: Introduction to CSS
+
+1. What is CSS and why do we use it?
+CSS (Cascading Style Sheets) is the language that controls how an HTML page looks: colors, fonts, spacing, borders and layout. HTML gives the page its structure, and CSS makes it look good. We use it to keep design separate from content, so one stylesheet can style many pages and changes are easy to make.
+
+2. What is the difference between inline, internal and external CSS?
+- Inline CSS is written inside an element using the style attribute, e.g. <p style="color: red;">. It affects only that one element.
+- Internal CSS is written inside a <style> tag in the <head> of one HTML page. It affects only that page.
+- External CSS is written in a separate .css file and linked with a <link> tag. It can style many pages at once and is the cleanest, most reusable approach. I used this one.
+
+3. What is the difference between class and ID selectors?
+A class selector (.name) can be used on many elements, and one element can have several classes. An ID selector (#name) must be unique, used on only one element per page. Classes are for reusable styles; IDs are for one specific element. IDs also have higher specificity than classes.
+
+4. Which CSS properties did you use today?
+color, background-color, font-family, font-size, font-weight, text-align, text-decoration, line-height, border, border-radius, box-shadow, padding, margin, width, height, letter-spacing, list-style-type, and the :hover pseudo-class. I also used a Google Font (Poppins).
+
+5. What challenges did you face while styling your webpage?
+CSS is completely new to me i had a lot of difficulties in understanding the concept and writing the codes, still manged a little to do it.
