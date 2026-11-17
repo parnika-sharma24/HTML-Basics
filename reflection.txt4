@@ -1,0 +1,19 @@
+
+Week 2 - Day 1
+Topic: CSS Box Model and Display Properties
+
+1. What is the CSS Box Model?
+
+The CSS Box Model explains how every HTML element is displayed as a box on a webpage. It consists of content, padding, border and margin. It helps us control the size and spacing of elements.
+
+2. Difference between margin and padding?
+
+Margin is the space outside an element's border, whereas padding is the space between the content and the border.
+
+3. Difference between block and inline?
+
+Block elements start on a new line and usually take the full available width. Inline elements do not start on a new line and take only the space they need.
+
+4. Why do we use box-sizing: border-box?
+
+We use box-sizing: border-box because it includes padding and border in the total width and height of an element. It makes it easier to manage the size of cards and other elements.
