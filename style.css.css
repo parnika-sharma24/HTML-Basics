@@ -1,0 +1,84 @@
+/* Colors used: dark blue = #1b2a49, beige = #f5f0e1, gold = #d4a017 */
+
+/* ----- Element selectors ----- */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f0e1;
+    color: #1b2a49;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #1b2a49;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #1b2a49;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    width: 300px;
+}
+
+/* ----- Class selectors ----- */
+
+.intro {
+    background-color: white;
+    padding: 15px;
+    text-align: justify;
+    border: 2px solid #d4a017;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray;
+}
+
+.hobbies {
+    background-color: white;
+    border: 2px solid #d4a017;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.link {
+    color: #1b2a49;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.photo {
+    border: 3px solid #d4a017;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px gray;
+}
+
+/* ----- Hover effect for the link ----- */
+
+.link:hover {
+    color: #d4a017;
+    text-decoration: underline;
+}
+
+/* ----- ID selector ----- */
+
+#main-heading {
+    color: #d4a017;
+    background-color: #1b2a49;
+    padding: 10px;
+}
