@@ -1,0 +1,249 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fc;
+    color: #222;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #252b48;
+}
+
+.logo span {
+    color: #7357e8;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #444;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #7357e8;
+}
+
+.login-btn {
+    background-color: #7357e8;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5239c4;
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 10%;
+    min-height: 500px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.tagline {
+    color: #7357e8;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.hero-content h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    color: #252b48;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 440px;
+    margin-bottom: 25px;
+}
+
+.start-btn {
+    background-color: #7357e8;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    background-color: #5239c4;
+    transform: translateY(-3px);
+}
+
+
+/* Hero Illustration */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    position: relative;
+    width: 300px;
+    height: 280px;
+    background-color: #e7e1ff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background-color: #b9aaff;
+    border-radius: 50%;
+}
+
+.card-design {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width: 175px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.design-line {
+    height: 9px;
+    background-color: #d9d4ed;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.design-line.short {
+    width: 60%;
+}
+
+.design-box {
+    height: 65px;
+    background-color: #a996f4;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.floating-box {
+    position: absolute;
+    bottom: 20px;
+    right: -15px;
+    background-color: white;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* About, Services and Contact */
+.about {
+    text-align: center;
+    padding: 35px 10%;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.about h2 {
+    color: #252b48;
+    margin-bottom: 12px;
+}
+
+.about p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .nav-links {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 7%;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .illustration {
+        max-width: 100%;
+    }
+}
+

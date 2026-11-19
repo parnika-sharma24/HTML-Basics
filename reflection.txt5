@@ -1,0 +1,14 @@
+1. What is CSS Flexbox?
+CSS Flexbox is a one-dimensional CSS layout model used to arrange elements in rows or columns. It helps create flexible and responsive webpage layouts.
+
+2. What is the difference between justify-content and align-items?
+justify-content aligns items along the main axis, whereas align-items aligns items along the cross axis.
+
+3. What is the purpose of flex-wrap?
+flex-wrap allows flex items to move to the next line when there is not enough space available in the container.
+
+4. What is a media query?
+A media query is a CSS technique used to apply different styles according to screen size or device characteristics. It helps make websites responsive.
+
+5. What is the purpose of flex-grow?
+flex-grow allows a flex item to take up extra available space inside its flex container. For example, flex-grow: 1 allows an item to expand and occupy available space.
