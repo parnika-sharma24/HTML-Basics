@@ -1,0 +1,21 @@
+
+1. What is CSS Grid?
+CSS Grid is a two-dimensional CSS layout system used
+to arrange webpage elements in rows and columns.
+It helps create organized and responsive layouts.
+
+2. Difference between Flexbox and Grid?
+Flexbox is a one-dimensional layout system used to
+arrange elements in a single row or column, whereas
+CSS Grid is a two-dimensional layout system used
+to arrange elements in both rows and columns.
+
+3. What is the purpose of grid-template-columns?
+grid-template-columns is used to define the number
+and size of columns in a grid container.
+
+4. Why do we use media queries?
+Media queries are used to apply different CSS styles
+according to screen sizes and device characteristics.
+They help make websites responsive on desktops,
+tablets and mobile devices.
